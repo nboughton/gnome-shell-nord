@@ -81,19 +81,19 @@ stage {
 .button:focus {
   color: #eceff4; /*nord6 */
   background-color: #3a414b;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus:hover,
 .app-folder-dialog .folder-name-container .edit-folder-button:focus:hover,
 .button:focus:hover {
   background-color: #404852;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus:active,
 .app-folder-dialog .folder-name-container .edit-folder-button:focus:active,
 .button:focus:active {
   background-color: #474f59;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:hover,
 .app-folder-dialog .folder-name-container .edit-folder-button:hover,
@@ -159,19 +159,19 @@ stage {
 .notification-banner .notification-button:focus {
   color: #eceff4; /*nord6 */
   background-color: #49515a;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .modal-dialog .modal-dialog-linked-button:focus:hover,
 .hotplug-notification-item:focus:hover,
 .notification-banner .notification-button:focus:hover {
   background-color: #505861;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .modal-dialog .modal-dialog-linked-button:focus:active,
 .hotplug-notification-item:focus:active,
 .notification-banner .notification-button:focus:active {
   background-color: #575e68;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .modal-dialog .modal-dialog-linked-button:hover,
 .hotplug-notification-item:hover,
@@ -259,17 +259,17 @@ stage {
 .screenshot-ui-type-button:focus {
   color: #eceff4; /*nord6 */
   background-color: rgba(58, 67, 77, 0.9658);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .screenshot-ui-show-pointer-button:focus:hover,
 .screenshot-ui-type-button:focus:hover {
   background-color: rgba(65, 74, 84, 0.9658);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .screenshot-ui-show-pointer-button:focus:active,
 .screenshot-ui-type-button:focus:active {
   background-color: rgba(72, 80, 91, 0.9658);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .screenshot-ui-show-pointer-button:hover,
 .screenshot-ui-type-button:hover {
@@ -772,15 +772,15 @@ StScrollBar StButton#hhandle:active {
 .datemenu-today-button:focus {
   color: #eceff4; /*nord6 */
   background-color: #3a414b;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .datemenu-today-button:focus:hover {
   background-color: #404852;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .datemenu-today-button:focus:active {
   background-color: #474f59;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .datemenu-today-button:hover {
   color: #eceff4; /*nord6 */
@@ -810,15 +810,15 @@ StScrollBar StButton#hhandle:active {
 .calendar:focus {
   color: #eceff4; /*nord6 */
   background-color: #3a414b;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .calendar:focus:hover {
   background-color: #404852;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .calendar:focus:active {
   background-color: #474f59;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .calendar:hover {
   color: #eceff4; /*nord6 */
@@ -864,7 +864,7 @@ StScrollBar StButton#hhandle:active {
 .calendar .calendar-day-base:focus {
   background-color: #314154;
   color: #fff;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .calendar .calendar-day-base:active,
 .calendar .calendar-day-base:selected {
@@ -939,15 +939,15 @@ StScrollBar StButton#hhandle:active {
 .events-button:focus {
   color: #eceff4; /*nord6 */
   background-color: #3a414b;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .events-button:focus:hover {
   background-color: #404852;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .events-button:focus:active {
   background-color: #474f59;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .events-button:hover {
   color: #eceff4; /*nord6 */
@@ -983,15 +983,15 @@ StScrollBar StButton#hhandle:active {
 .world-clocks-button:focus {
   color: #eceff4; /*nord6 */
   background-color: #3a414b;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .world-clocks-button:focus:hover {
   background-color: #404852;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .world-clocks-button:focus:active {
   background-color: #474f59;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .world-clocks-button:hover {
   color: #eceff4; /*nord6 */
@@ -1036,15 +1036,15 @@ StScrollBar StButton#hhandle:active {
 .weather-button:focus {
   color: #eceff4; /*nord6 */
   background-color: #3a414b;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .weather-button:focus:hover {
   background-color: #404852;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .weather-button:focus:active {
   background-color: #474f59;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .weather-button:hover {
   color: #eceff4; /*nord6 */
@@ -1133,7 +1133,7 @@ StScrollBar StButton#hhandle:active {
   border-style: solid;
 }
 .message-list-controls .dnd-button:focus {
-  border-color: rgba(53, 132, 228, 0.6);
+  border-color: rgba(94, 129, 172, 0.6); /* nord10 */
 }
 
 .message {
@@ -1146,15 +1146,15 @@ StScrollBar StButton#hhandle:active {
 .message:focus {
   color: #eceff4; /*nord6 */
   background-color: #3a414b;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .message:focus:hover {
   background-color: #404852;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .message:focus:active {
   background-color: #474f59;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .message:hover {
   color: #eceff4; /*nord6 */
@@ -1727,8 +1727,8 @@ StScrollBar StButton#hhandle:active {
   background-color: rgba(236, 239, 244, 0.25); /* nord6 */
 }
 .switcher-list .item-box:drop {
-  border: 2px solid rgba(53, 132, 228, 0.8);
-  background-color: rgba(53, 132, 228, 0.2);
+  border: 2px solid rgba(94, 129, 172, 0.8); /* nord10 */
+  background-color: rgba(94, 129, 172, 0.2); /* nord10 */
 }
 .switcher-list .item-box:hover {
   background: none;
@@ -1943,7 +1943,7 @@ StScrollBar StButton#hhandle:active {
 .screenshot-ui-window-selector-window:checked
   .screenshot-ui-window-selector-window-border {
   border-color: #3584e4;
-  background-color: rgba(53, 132, 228, 0.2);
+  background-color: rgba(94, 129, 172, 0.2); /* nord10 */
 }
 
 .screenshot-ui-window-selector-window:checked
@@ -2430,8 +2430,8 @@ StScrollBar StButton#hhandle:active {
 }
 .list-search-result:drop,
 .search-provider-icon:drop {
-  border: 2px solid rgba(53, 132, 228, 0.8);
-  background-color: rgba(53, 132, 228, 0.2);
+  border: 2px solid rgba(94, 129, 172, 0.8); /* nord10 */
+  background-color: rgba(94, 129, 172, 0.2); /* nord10 */
 }
 
 .grid-search-results {
@@ -2554,8 +2554,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .dash-item-container .show-apps:drop .overview-icon {
-  border: 2px solid rgba(53, 132, 228, 0.8);
-  background-color: rgba(53, 132, 228, 0.2);
+  border: 2px solid rgba(94, 129, 172, 0.8); /* nord10 */
+  background-color: rgba(94, 129, 172, 0.2); /* nord10 */
 }
 
 .dash-item-container .show-apps,
@@ -2648,8 +2648,8 @@ StScrollBar StButton#hhandle:active {
 
 .app-well-app:drop .overview-icon,
 .grid-search-result:drop .overview-icon {
-  border: 2px solid rgba(53, 132, 228, 0.8);
-  background-color: rgba(53, 132, 228, 0.2);
+  border: 2px solid rgba(94, 129, 172, 0.8); /* nord10 */
+  background-color: rgba(94, 129, 172, 0.2); /* nord10 */
 }
 
 .app-well-app .overview-icon,
@@ -2717,8 +2717,8 @@ StScrollBar StButton#hhandle:active {
 
 .app-well-app.app-folder:drop .overview-icon,
 .app-folder.grid-search-result:drop .overview-icon {
-  border: 2px solid rgba(53, 132, 228, 0.8);
-  background-color: rgba(53, 132, 228, 0.2);
+  border: 2px solid rgba(94, 129, 172, 0.8); /* nord10 */
+  background-color: rgba(94, 129, 172, 0.2); /* nord10 */
 }
 
 .app-folder-dialog {
@@ -2873,7 +2873,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .select-area-rubberband {
-  background-color: rgba(53, 132, 228, 0.3);
+  background-color: rgba(94, 129, 172, 0.3); /* nord10 */
   border: 1px solid #3584e4;
 }
 
@@ -2933,7 +2933,7 @@ StScrollBar StButton#hhandle:active {
 
 /* Tiled window previews */
 .tile-preview {
-  background-color: rgba(53, 132, 228, 0.5);
+  background-color: rgba(94, 129, 172, 0.5); /* nord10 */
   border: 1px solid #3584e4;
 }
 
@@ -2970,15 +2970,15 @@ StScrollBar StButton#hhandle:active {
 .keyboard-key:focus {
   color: #eceff4; /*nord6 */
   background-color: rgba(55, 64, 74, 0.964);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .keyboard-key:focus:hover {
   background-color: rgba(66, 75, 85, 0.964);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .keyboard-key:focus:active {
   background-color: rgba(71, 79, 90, 0.964);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .keyboard-key:hover {
   color: #eceff4; /*nord6 */
@@ -3062,15 +3062,15 @@ StScrollBar StButton#hhandle:active {
 .keyboard-subkeys .keyboard-key:focus {
   color: #eceff4; /*nord6 */
   background-color: rgba(55, 64, 74, 0.964);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .keyboard-subkeys .keyboard-key:focus:hover {
   background-color: rgba(66, 75, 85, 0.964);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .keyboard-subkeys .keyboard-key:focus:active {
   background-color: rgba(71, 79, 90, 0.964);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .keyboard-subkeys .keyboard-key:hover {
   color: #eceff4; /*nord6 */
@@ -3114,15 +3114,15 @@ StScrollBar StButton#hhandle:active {
 .word-suggestions StButton:focus {
   color: #eceff4; /*nord6 */
   background-color: rgba(55, 64, 74, 0.964);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .word-suggestions StButton:focus:hover {
   background-color: rgba(66, 75, 85, 0.964);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .word-suggestions StButton:focus:active {
   background-color: rgba(71, 79, 90, 0.964);
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .word-suggestions StButton:hover {
   color: #eceff4; /*nord6 */
@@ -3260,15 +3260,15 @@ StScrollBar StButton#hhandle:active {
 .lg-extension:focus {
   color: #eceff4; /*nord6 */
   background-color: #3a414b;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .lg-extension:focus:hover {
   background-color: #404852;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .lg-extension:focus:active {
   background-color: #474f59;
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.7);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.7); /* nord10 */
 }
 .lg-extension:hover {
   color: #eceff4; /*nord6 */
@@ -3359,7 +3359,7 @@ StScrollBar StButton#hhandle:active {
 }
 .login-dialog .modal-dialog-button:default:focus,
 .unlock-dialog .modal-dialog-button:default:focus {
-  box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6);
+  box-shadow: inset 0 0 0 2px rgba(94, 129, 172, 0.6); /* nord10 */
 }
 .login-dialog .modal-dialog-button:default:hover,
 .login-dialog .modal-dialog-button:default:focus,
@@ -3377,7 +3377,7 @@ StScrollBar StButton#hhandle:active {
 .unlock-dialog .modal-dialog-button:default:insensitive {
   color: rgba(236, 239, 244, 0.5); /* nord6 */
   background-color: rgba(236, 239, 244, 0.05); /* nord6 */
-  background-color: rgba(53, 132, 228, 0.5);
+  background-color: rgba(94, 129, 172, 0.5); /* nord10 */
   color: rgba(236, 239, 244, 0.5); /* nord6 */
 }
 .login-dialog .cancel-button,
@@ -3668,7 +3668,7 @@ StScrollBar StButton#hhandle:active {
 }
 #unlockDialogNotifications StButton#vhandle:active,
 #unlockDialogNotifications StButton#hhandle:active {
-  background-color: rgba(53, 132, 228, 0.5);
+  background-color: rgba(94, 129, 172, 0.5); /* nord10 */
 }
 
 /* 'Login Manager Settings' App Provided CSS */
