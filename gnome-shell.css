@@ -60,9 +60,9 @@ stage {
 
 .modal-dialog {
   color: #eceff4; /*nord6 */
-  background-color: #303030;
+  background-color: #2e3440; /* nord0 */
   border-radius: 11px;
-  border: 1px solid #3c3c3c;
+  border: 1px solid #4c566a; /* nord3 */
 }
 
 #LookingGlassDialog > #Toolbar .lg-toolbar-button,
@@ -404,9 +404,9 @@ StEntry {
   border-radius: 8px;
   padding: 8px;
   color: #eceff4; /*nord6 */
-  background-color: #3c3c3c;
+  background-color: #4c566a; /* nord3 */
   color: rgba(236, 239, 244, 0.7); /* nord6 */
-  border: 2px solid #3c3c3c;
+  border: 2px solid #4c566a; /* nord3 */
   selection-background-color: #3584e4;
   selected-color: #fff;
 }
@@ -549,9 +549,9 @@ StScrollBar StButton#hhandle:active {
 .candidate-popup-content {
   padding: 6px;
   border-radius: 14px;
-  border: 1px solid #3c3c3c;
+  border: 1px solid #4c566a; /* nord3 */
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-  background-color: #303030;
+  background-color: #2e3440; /* nord0 */
 }
 
 .popup-menu-item {
@@ -1258,7 +1258,7 @@ StScrollBar StButton#hhandle:active {
 }
 .media-message-cover-icon.fallback {
   color: #d4d4d4;
-  background-color: #303030;
+  background-color: #2e3440; /* nord0 */
   border: 1px solid transparent;
   border-radius: 8px;
   icon-size: 2.18em !important;
@@ -2323,9 +2323,9 @@ StScrollBar StButton#hhandle:active {
   margin-bottom: 6px;
   padding: 7px 9px;
   width: 320px;
-  background-color: #3c3c3c;
+  background-color: #4c566a; /* nord3 */
   color: rgba(236, 239, 244, 0.7); /* nord6 */
-  border: 2px solid #3c3c3c;
+  border: 2px solid #4c566a; /* nord3 */
 }
 
 .search-entry:hover {
@@ -2371,7 +2371,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .search-section-content {
-  background-color: #303030;
+  background-color: #2e3440; /* nord0 */
   border-radius: 24px;
   border: 1px solid rgba(236, 239, 244, 0.02); /* nord6 */
   color: #eceff4; /*nord6 */
@@ -2491,7 +2491,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .dash-background {
-  background-color: #303030;
+  background-color: #2e3440; /* nord0 */
   border-radius: 28px;
   padding: 12px;
   spacing: 6px;
@@ -2723,7 +2723,7 @@ StScrollBar StButton#hhandle:active {
 
 .app-folder-dialog {
   border-radius: 32px;
-  background-color: #303030;
+  background-color: #2e3440; /* nord0 */
 }
 .app-folder-dialog .folder-name-container {
   padding: 24px 36px 0;
@@ -3335,8 +3335,8 @@ StScrollBar StButton#hhandle:active {
 .login-dialog .modal-dialog-button:focus,
 .unlock-dialog .modal-dialog-button:hover,
 .unlock-dialog .modal-dialog-button:focus {
-  background-color: #303030;
-  border-color: #303030;
+  background-color: #2e3440; /* nord0 */
+  border-color: #2e3440; /* nord0 */
 }
 .login-dialog .modal-dialog-button:active,
 .unlock-dialog .modal-dialog-button:active {
