@@ -385,7 +385,7 @@ stage {
 
 /* WIDGETS */
 .shell-link {
-  color: #8fbbf0;
+  color: #88c0d0; /* nord8 */
 }
 .shell-link:hover {
   color: #bcd6f6;
@@ -1224,7 +1224,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .url-highlighter {
-  link-color: #8fbbf0;
+  link-color: #88c0d0; /* nord8 */
 }
 
 /* Media Controls */
@@ -2253,7 +2253,7 @@ StScrollBar StButton#hhandle:active {
 /* Activities Ripple */
 .ripple-box {
   background-color: rgba(233, 242, 252, 0.3);
-  box-shadow: 0 0 2px 2px #8fbbf0;
+  box-shadow: 0 0 2px 2px #88c0d0; /* nord8 */
   width: 52px;
   height: 52px;
   border-radius: 0 0 52px 0;
@@ -2854,7 +2854,7 @@ StScrollBar StButton#hhandle:active {
   height: 50px;
   border-radius: 25px;
   background-color: rgba(188, 214, 246, 0.3);
-  box-shadow: 0 0 2px 2px #8fbbf0;
+  box-shadow: 0 0 2px 2px #88c0d0; /* nord8 */
 }
 
 .pie-timer {
@@ -3204,7 +3204,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .lg-dialog .shell-link {
-  color: #8fbbf0;
+  color: #88c0d0; /* nord8 */
 }
 .lg-dialog .shell-link:hover {
   color: #bcd6f6;
