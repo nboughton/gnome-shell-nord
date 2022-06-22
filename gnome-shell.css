@@ -428,8 +428,8 @@ StEntry:focus {
   color: #eceff4; /* nord6 */
 }
 StEntry:insensitive {
-  background-color: #383838;
-  border-color: #383838;
+  background-color: #3b4252; /* nord1 */
+  border-color: #3b4252; /* nord1 */
   color: #d8dee9; /* nord4 */
 }
 StEntry StIcon.capslock-warning {
@@ -876,11 +876,11 @@ StScrollBar StButton#hhandle:active {
 .calendar .calendar-day-base:active,
 .calendar .calendar-day-base:selected {
   color: #eceff4; /* nord6 */
-  background-color: #3b4252; /* nord1 */
+  background-color: #4c566a; /* nord3 */
 }
 .calendar .calendar-day-base:active:focus,
 .calendar .calendar-day-base:selected:focus {
-  background-color: #3d4d60;
+  background-color: #3b4252; /* nord1 */
 }
 .calendar .calendar-day-base.calendar-day-heading {
   color: #d8dee9; /* nord4 */
@@ -930,7 +930,7 @@ StScrollBar StButton#hhandle:active {
   margin: 6px;
   padding: 0 6px;
   border-radius: 3px;
-  background-color: #2b2b2b;
+  background-color: #2e3440; /* nord0 */
   color: #d8dee9; /* nord4 */
 }
 
@@ -1447,7 +1447,7 @@ StScrollBar StButton#hhandle:active {
   font-weight: bold;
 }
 .dialog-list .dialog-list-box .dialog-list-item .dialog-list-item-description {
-  color: #f2f2f2;
+  color: #eceff4; /* nord6 */
 }
 
 /* Run Dialog */
@@ -1462,7 +1462,7 @@ StScrollBar StButton#hhandle:active {
 
 .run-dialog .run-dialog-description {
   text-align: center;
-  color: #cccccc;
+  color: #d8dee9; /* nord4 */
 }
 
 /* Password or Authentication Dialog */
@@ -1581,7 +1581,7 @@ StScrollBar StButton#hhandle:active {
 .nm-dialog-scroll-view {
   padding: 6px;
   border-radius: 8px;
-  background-color: #232323;
+  background-color: #2e3440; /* nord0 */
 }
 
 .nm-dialog-item {
@@ -1850,10 +1850,10 @@ StScrollBar StButton#hhandle:active {
 }
 .screenshot-ui-capture-button:cast:hover .screenshot-ui-capture-button-circle,
 .screenshot-ui-capture-button:cast:focus .screenshot-ui-capture-button-circle {
-  background-color: #d61f2d;
+  background-color: #bf616a; /* nord11 */
 }
 .screenshot-ui-capture-button:cast:active .screenshot-ui-capture-button-circle {
-  background-color: #a11722;
+  background-color: #bf616a; /* nord11 */
 }
 
 .screenshot-ui-shot-cast-container {
@@ -1879,7 +1879,7 @@ StScrollBar StButton#hhandle:active {
   background-color: #4c566a; /* nord3 */
 }
 .screenshot-ui-shot-cast-button:active {
-  background-color: #4c4c4c;
+  background-color: #4c566a; /* nord3 */
 }
 .screenshot-ui-shot-cast-button:checked {
   background-color: #eceff4; /* nord6 */
@@ -1918,7 +1918,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .screenshot-ui-window-selector {
-  background-color: #232323;
+  background-color: #2e3440; /* nord0 */
 }
 .screenshot-ui-window-selector .screenshot-ui-window-selector-window-container {
   margin: 100px;
@@ -1985,7 +1985,7 @@ StScrollBar StButton#hhandle:active {
 
 /* Top Bar */
 #panel {
-  background-color: #000;
+  background-color: #2e3440; /* nord0 */
   font-weight: bold;
   height: 2.2em;
   transition-duration: 250ms;
@@ -1997,7 +1997,7 @@ StScrollBar StButton#hhandle:active {
 }
 #panel .panel-button {
   font-weight: bold;
-  color: #f2f2f2;
+  color: #eceff4; /* nord6 */
   -natural-hpadding: 12px;
   -minimum-hpadding: 6px;
   transition-duration: 150ms;
@@ -2022,7 +2022,7 @@ StScrollBar StButton#hhandle:active {
 #panel .panel-button:overview,
 #panel .panel-button:focus,
 #panel .panel-button:checked {
-  box-shadow: inset 0 0 0 100px rgba(242, 242, 242, 0.2);
+  box-shadow: inset 0 0 0 100px rgba(216, 222, 233, 0.2); /* nord4 */
 }
 #panel .panel-button:active.clock-display,
 #panel .panel-button:overview.clock-display,
@@ -2034,31 +2034,31 @@ StScrollBar StButton#hhandle:active {
 #panel .panel-button:overview.clock-display .clock,
 #panel .panel-button:focus.clock-display .clock,
 #panel .panel-button:checked.clock-display .clock {
-  box-shadow: inset 0 0 0 100px rgba(242, 242, 242, 0.2);
+  box-shadow: inset 0 0 0 100px rgba(216, 222, 233, 0.2); /* nord4 */
 }
 #panel .panel-button:active.screen-recording-indicator,
 #panel .panel-button:overview.screen-recording-indicator,
 #panel .panel-button:focus.screen-recording-indicator,
 #panel .panel-button:checked.screen-recording-indicator {
-  box-shadow: inset 0 0 0 100px rgba(192, 28, 40, 0.85);
+  box-shadow: inset 0 0 0 100px rgba(191, 97, 106, 0.85); /* nord11 */
 }
 #panel .panel-button:hover {
-  box-shadow: inset 0 0 0 100px rgba(242, 242, 242, 0.15);
+  box-shadow: inset 0 0 0 100px rgba(216, 222, 233, 0.15); /* nord4 */
 }
 #panel .panel-button:hover.clock-display {
   box-shadow: none;
 }
 #panel .panel-button:hover.clock-display .clock {
-  box-shadow: inset 0 0 0 100px rgba(242, 242, 242, 0.15);
+  box-shadow: inset 0 0 0 100px rgba(216, 222, 233, 0.15); /* nord4 */
 }
 #panel .panel-button:hover.screen-recording-indicator {
-  box-shadow: inset 0 0 0 100px rgba(192, 28, 40, 0.9);
+  box-shadow: inset 0 0 0 100px rgba(191, 97, 106, 0.9); /* nord11 */
 }
 #panel .panel-button:active:hover,
 #panel .panel-button:overview:hover,
 #panel .panel-button:focus:hover,
 #panel .panel-button:checked:hover {
-  box-shadow: inset 0 0 0 100px rgba(242, 242, 242, 0.25);
+  box-shadow: inset 0 0 0 100px rgba(216, 222, 233, 0.25); /* nord4 */
 }
 #panel .panel-button:active:hover.clock-display,
 #panel .panel-button:overview:hover.clock-display,
@@ -2070,13 +2070,13 @@ StScrollBar StButton#hhandle:active {
 #panel .panel-button:overview:hover.clock-display .clock,
 #panel .panel-button:focus:hover.clock-display .clock,
 #panel .panel-button:checked:hover.clock-display .clock {
-  box-shadow: inset 0 0 0 100px rgba(242, 242, 242, 0.25);
+  box-shadow: inset 0 0 0 100px rgba(216, 222, 233, 0.25); /* nord4 */
 }
 #panel .panel-button:active:hover.screen-recording-indicator,
 #panel .panel-button:overview:hover.screen-recording-indicator,
 #panel .panel-button:focus:hover.screen-recording-indicator,
 #panel .panel-button:checked:hover.screen-recording-indicator {
-  box-shadow: inset 0 0 0 100px rgba(192, 28, 40, 0.8);
+  box-shadow: inset 0 0 0 100px rgba(191, 97, 106, 0.8); /* nord11 */
 }
 #panel .panel-button .system-status-icon {
   icon-size: 1.09em;
@@ -2147,7 +2147,7 @@ StScrollBar StButton#hhandle:active {
 #panel:overview .panel-button:overview.screen-recording-indicator,
 #panel:overview .panel-button:focus.screen-recording-indicator,
 #panel:overview .panel-button:checked.screen-recording-indicator {
-  box-shadow: inset 0 0 0 100px rgba(192, 28, 40, 0.85);
+  box-shadow: inset 0 0 0 100px rgba(191, 97, 106, 0.85); /* nord11 */
 }
 #panel.unlock-screen .panel-button:hover,
 #panel.login-screen .panel-button:hover,
@@ -2167,7 +2167,7 @@ StScrollBar StButton#hhandle:active {
 #panel.unlock-screen .panel-button:hover.screen-recording-indicator,
 #panel.login-screen .panel-button:hover.screen-recording-indicator,
 #panel:overview .panel-button:hover.screen-recording-indicator {
-  box-shadow: inset 0 0 0 100px rgba(192, 28, 40, 0.9);
+  box-shadow: inset 0 0 0 100px rgba(191, 97, 106, 0.9); /* nord11 */
 }
 #panel.unlock-screen .panel-button:active:hover,
 #panel.unlock-screen .panel-button:overview:hover,
@@ -2223,7 +2223,7 @@ StScrollBar StButton#hhandle:active {
 #panel:overview .panel-button:overview:hover.screen-recording-indicator,
 #panel:overview .panel-button:focus:hover.screen-recording-indicator,
 #panel:overview .panel-button:checked:hover.screen-recording-indicator {
-  box-shadow: inset 0 0 0 100px rgba(192, 28, 40, 0.8);
+  box-shadow: inset 0 0 0 100px rgba(191, 97, 106, 0.8); /* nord11 */
 }
 #panel .panel-status-indicators-box,
 #panel .panel-status-menu-box {
@@ -2259,7 +2259,7 @@ StScrollBar StButton#hhandle:active {
 
 /* Activities Ripple */
 .ripple-box {
-  background-color: rgba(233, 242, 252, 0.3);
+  background-color: rgba(216, 222, 233, 0.3); /* nord4 */
   box-shadow: 0 0 2px 2px #88c0d0; /* nord8 */
   width: 52px;
   height: 52px;
@@ -2276,7 +2276,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #overviewGroup {
-  background-color: #232323;
+  background-color: #2e3440; /* nord0 */
 }
 
 .overview-controls {
@@ -2297,7 +2297,7 @@ StScrollBar StButton#hhandle:active {
 
 .window-close,
 .screenshot-ui-close-button {
-  background-color: rgba(40, 40, 40, 0.91);
+  background-color: rgba(46, 52, 64, 0.91); /* nord0 */
   color: #eceff4; /* nord6 */
   border-radius: 99px;
   padding: 3px;
@@ -2311,12 +2311,12 @@ StScrollBar StButton#hhandle:active {
 }
 .window-close:hover,
 .screenshot-ui-close-button:hover {
-  background-color: rgba(78, 78, 78, 0.9235);
+  background-color: rgba(59, 66, 82, 0.9235); /* nord1 */
 }
 .window-close:active,
 .screenshot-ui-close-button:active {
   color: rgba(236, 239, 244, 0.8); /* nord6 */
-  background-color: rgba(27, 27, 27, 0.91);
+  background-color: rgba(46, 52, 64, 0.91); /* nord0 */
 }
 
 .workspace-background {
@@ -2348,8 +2348,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .search-entry:insensitive {
-  background-color: #383838;
-  border-color: #383838;
+  background-color: #3b4252; /* nord1 */
+  border-color: #3b4252; /* nord1 */
   color: #d8dee9; /* nord4 */
 }
 
@@ -2869,7 +2869,7 @@ StScrollBar StButton#hhandle:active {
   height: 60px;
   -pie-border-width: 3px;
   -pie-border-color: #88c0d0; /* nord8 */
-  -pie-background-color: rgba(233, 242, 252, 0.3);
+  -pie-background-color: rgba(216, 222, 233, 0.3); /* nord4 */
 }
 
 .magnifier-zoom-region {
@@ -2935,7 +2935,7 @@ StScrollBar StButton#hhandle:active {
 
 /* Workspace animation */
 .workspace-animation {
-  background-color: #232323;
+  background-color: #2e3440; /* nord0 */
 }
 
 /* Tiled window previews */
@@ -3307,7 +3307,7 @@ StScrollBar StButton#hhandle:active {
   color: #eceff4; /* nord6 */
 }
 .lg-debug-flag-button:active {
-  color: #cccccc;
+  color: #d8dee9; /* nord4 */
 }
 
 .lg-debug-flags-header {
@@ -3566,7 +3566,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .login-dialog-prompt-label {
-  color: #cccccc;
+  color: #d8dee9; /* nord4 */
   font-size: 12pt;
   padding-top: 1em;
 }
@@ -3660,7 +3660,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #lockDialogGroup {
-  background-color: #232323;
+  background-color: #2e3440; /* nord0 */
 }
 
 #unlockDialogNotifications StButton#vhandle,
