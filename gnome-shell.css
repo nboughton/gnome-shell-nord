@@ -1148,7 +1148,7 @@ StScrollBar StButton#hhandle:active {
   margin: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
   color: #eceff4; /* nord6 */
-  background-color: #2e3440; /* nord0 */
+  background-color: #3b4252; /* nord1 */
 }
 .message:focus {
   color: #eceff4; /* nord6 */
@@ -1264,7 +1264,7 @@ StScrollBar StButton#hhandle:active {
   border-radius: 8px;
 }
 .media-message-cover-icon.fallback {
-  color: #d4d4d4;
+  color: #eceff4; /* nord6 */
   background-color: #2e3440; /* nord0 */
   border: 1px solid transparent;
   border-radius: 8px;
